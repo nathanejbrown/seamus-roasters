@@ -1,0 +1,28 @@
+/* add custom styles */
+.header-brown {
+  background-color: #926741;
+  opacity: 0.7;
+}
+
+.parallaxBox {
+
+  height: 50vh;
+
+  /* Create the parallax scrolling effect */
+  /*background-attachment: fixed;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.coffeeCup {
+  background-image: url("../images/coffeeCup.jpeg");
+}
+
+.pouringPic {
+  background-image: url("../images/pouring.jpeg");
+}
+
+.fancyScript {
+  font-family: 'Indie Flower', cursive;
+}
