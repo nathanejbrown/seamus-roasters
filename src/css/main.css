@@ -23,6 +23,37 @@
   background-image: url("../images/pouring.jpeg");
 }
 
+.beansPic {
+  background-image: url("../images/beans.jpg");
+}
+
 .fancyScript {
   font-family: 'Indie Flower', cursive;
+}
+
+.lefty {
+  width: 65vw;
+}
+
+.righty {
+  width: 25vw;
+  height: 40vh;
+  background-size: cover;
+  margin: 3%;
+  border-radius: 50%;
+}
+
+.paragraph-and-picture {
+  display: flex;
+  align-items: flex-start;
+  height: 40vh;
+}
+
+.infoBox {
+  display: flex;
+  align-items: center;
+}
+
+.textBox {
+  width: 30vw;
 }
