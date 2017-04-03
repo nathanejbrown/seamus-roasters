@@ -29,6 +29,7 @@
 
 .fancyScript {
   font-family: 'Indie Flower', cursive;
+  font-size: 1.5em;
 }
 
 .lefty {
@@ -36,8 +37,8 @@
 }
 
 .righty {
-  width: 25vw;
-  height: 40vh;
+  /*width: 25vw;*/
+  height: 25vh;
   background-size: cover;
   margin: 3%;
   border-radius: 50%;
@@ -56,4 +57,12 @@
 
 .textBox {
   width: 30vw;
+}
+
+/*.extraPadding {
+  padding-right: 15%;
+}*/
+
+.valign-wrapper {
+  height: 35vh;
 }
