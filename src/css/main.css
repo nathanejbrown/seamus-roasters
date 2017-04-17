@@ -40,3 +40,7 @@
 .paragraphBox {
   height: 35vh;
 }
+
+.underline {
+  text-decoration: underline;
+}
