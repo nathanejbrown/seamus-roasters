@@ -6,9 +6,9 @@
     .module('jamesCoffeeApp', [
       'ngRoute',
       'jamesCoffeeApp.config',
+      'ngMaterial',
       'jamesCoffeeApp.components.main',
-      'angularCSS',
-      'ngMaterial'
+      'angularCSS'
     ]);
 
 })();
