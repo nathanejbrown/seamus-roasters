@@ -7,7 +7,8 @@
       'ngRoute',
       'jamesCoffeeApp.config',
       'jamesCoffeeApp.components.main',
-      'angularCSS'
+      'angularCSS',
+      'ngMaterial'
     ]);
 
 })();
