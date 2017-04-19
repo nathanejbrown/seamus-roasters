@@ -10,7 +10,17 @@
 
   function mainController($scope) {
     /*jshint validthis: true */
-    this.greeting = 'Hello World!';
+    $(window).load(function() {
+      console.log('bippety boppety boo');
+      Materialize.updateTextFields();
+      $('.button-collapse').sideNav({
+          menuWidth: 300,
+          edge: 'left',
+          closeOnClick: true,
+          draggable: false
+        }
+      );
+    });
   }
 
 })();
